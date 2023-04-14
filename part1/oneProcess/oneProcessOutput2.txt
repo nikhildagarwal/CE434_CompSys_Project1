@@ -1,0 +1,12 @@
+Hi I'm process 2762686 with return arg 0 and my parent is 2753091.
+Max = 1000, Avg = 500.
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[286].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[1155].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[1327].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[1373].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[1409].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[1420].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[1500].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[1687].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[2060].
+Hi I'm process 2762686 with return arg 0 and I found a hidden key in position A[2096].

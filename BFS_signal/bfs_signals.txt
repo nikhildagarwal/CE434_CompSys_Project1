@@ -1,0 +1,36 @@
+In this file we have handfiltered the outputs for the keys that were found.
+Because in our bfs algo the keys are found and reported in their specific processes, we show that each process is only reporting one key.
+
+Hi i'm process 1994506 with return arg 1. I found a hidden key in position A[4].
+Hi i'm process 1994508 with return arg 3. I found a hidden key in position A[476].
+Hi i'm process 1994509 with return arg 4. I found a hidden key in position A[761].
+Hi i'm process 1994510 with return arg 5. I found a hidden key in position A[999].
+Hi i'm process 1994511 with return arg 6. I found a hidden key in position A[1227].
+Hi i'm process 1994513 with return arg 8. I found a hidden key in position A[1638].
+Hi i'm process 1994514 with return arg 9. I found a hidden key in position A[1922].
+Hi i'm process 1994516 with return arg 11. I found a hidden key in position A[2355].
+Hi i'm process 1994519 with return arg 14. I found a hidden key in position A[3256].
+Hi i'm process 1994520 with return arg 15. I found a hidden key in position A[3378].
+Hi i'm process 1994523 with return arg 18. I found a hidden key in position A[4024].
+Hi i'm process 1994527 with return arg 22. I found a hidden key in position A[5029].
+Hi i'm process 1994529 with return arg 24. I found a hidden key in position A[5537].
+Hi i'm process 1994530 with return arg 25. I found a hidden key in position A[5619].
+Hi i'm process 1994531 with return arg 26. I found a hidden key in position A[5829].
+Hi i'm process 1994532 with return arg 27. I found a hidden key in position A[6099].
+Hi i'm process 1994533 with return arg 28. I found a hidden key in position A[6323].
+Hi i'm process 1994535 with return arg 30. I found a hidden key in position A[6817].
+Hi i'm process 1994536 with return arg 31. I found a hidden key in position A[7141].
+Hi i'm process 1994537 with return arg 32. I found a hidden key in position A[7326].
+Hi i'm process 1994538 with return arg 33. I found a hidden key in position A[7656].
+Hi i'm process 1994539 with return arg 34. I found a hidden key in position A[7759].
+Hi i'm process 1994540 with return arg 35. I found a hidden key in position A[8046].
+Hi i'm process 1994541 with return arg 36. I found a hidden key in position A[8311].
+Hi i'm process 1994542 with return arg 37. I found a hidden key in position A[8536].
+Hi i'm process 1994544 with return arg 39. I found a hidden key in position A[9019].
+Hi i'm process 1994545 with return arg 40. I found a hidden key in position A[9219].
+Hi i'm process 1994546 with return arg 41. I found a hidden key in position A[9512].
+Hi i'm process 1994547 with return arg 42. I found a hidden key in position A[9604].
+
+As we can see the program now only prints the first key that was found in every process that had keys.
+If a process did not have any keys it is ignored. The code above was run for PN = 43 processes.
+From the return args we can see that child 1, 3, 4, 5, 6, and 8 found keys and so on.

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
@@ -9,9 +10,13 @@
 *  H = the number of keys we want to find.
 *  Since this program is by default only running one process,
    we do not need to add a processNumber command line input.
+*	compile: gcc -o op oneProcess.c
+*	run: ./op 14
+*
+*	The above will compile the code and then find H = 14 keys.
 */
 int main(int argc, char* argv[]){
-	
+	clock_t start = clock();
 	FILE *writeFile;
 	writeFile = fopen("oneProcessOutput.txt","w");
 	pid_t pid = getpid();
@@ -57,6 +62,8 @@ int main(int argc, char* argv[]){
         }
         fclose(writeFile);
         fclose(readFile);
-
+	clock_t end = clock();
+	double cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+    	printf("Elapsed time: %f seconds\n", cpu_time_used);
     return 0;
 }

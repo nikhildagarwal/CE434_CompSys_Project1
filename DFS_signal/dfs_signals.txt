@@ -1,0 +1,23 @@
+The messages and the avg, max for this file are the same provided in part 1.
+However the messages displayed for keys found are as follows.
+
+Hi I'm process 80281 with return arg 0 and my parent is 74363.
+Max = 1000, Avg = 500.
+Hi i'm process 80283 with return arg 1. I found a hidden key in position A[286].
+Hi i'm process 80284 with return arg 2. I found a hidden key in position A[1155].
+Hi i'm process 80285 with return arg 3. I found a hidden key in position A[1500].
+Hi i'm process 80286 with return arg 4. I found a hidden key in position A[2344].
+Hi i'm process 80287 with return arg 5. I found a hidden key in position A[2945].
+Hi i'm process 80288 with return arg 6. I found a hidden key in position A[3981].
+Hi i'm process 80289 with return arg 7. I found a hidden key in position A[4803].
+Hi i'm process 80290 with return arg 8. I found a hidden key in position A[5665].
+Hi i'm process 80291 with return arg 9. I found a hidden key in position A[6018].
+Hi i'm process 80292 with return arg 10. I found a hidden key in position A[6889].
+Hi i'm process 80293 with return arg 11. I found a hidden key in position A[7186].
+Hi i'm process 80294 with return arg 12. I found a hidden key in position A[7970].
+Hi i'm process 80295 with return arg 13. I found a hidden key in position A[8861].
+Hi i'm process 80281 with return arg 0. I found a hidden key in position A[9386].
+
+As we can see the program now only prints the first key that was found in every process that had keys.
+If a process did not have any keys it is ignored. The code above was run for PN = 43 processes.
+From the return args we can see that child 1, 3, 4, 5, 6, and 8 found keys and so on.
